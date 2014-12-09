@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body class="ui-mobile-viewport edit ui-overlay-c preview">
+<div data-role="page" data-control-title="Home" data-theme="d" id="page1">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="stove.png"
+                         width="288" height="327" alt="Stove" data-mce-src="stove.png">
+                </b>
+            </p>
+        </div>
+        <a data-role="button" data-transition="slide" href="#page5">
+            Problemas con tu Estufa?
+        </a>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Menu" data-theme="d" id="page5">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <h4>
+            Cual es el problema de tu estufa?
+        </h4>
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <li data-theme="c">
+                <a href="#page7" data-transition="slide">
+                    Las hornillas no encienden?
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    La llama no es completa?
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    El horno no funciona?
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    Sonidos raros en el horno?
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    Derrames en el horno?
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    El horno esta quemado?
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1" data-theme="d" id="page7">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="question.png"
+                         width="200" height="200" alt="Question" data-mce-src="question.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            La perilla de control de la cubierta se ha girado completamente hasta
+            'LITE'?
+        </h3>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#page10" data-transition="fade" data-theme="" data-icon="delete">
+                        No
+                    </a>
+                </li>
+                <li>
+                    <a href="#page8" data-transition="fade" data-theme="" data-icon="check">
+                        Si
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.si" data-theme="d" id="page8">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="question.png"
+                         width="200" height="200" alt="Question" data-mce-src="question.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            Los orificios de las hornillas están tapados?
+        </h3>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#page11" data-transition="fade" data-theme="" data-icon="delete">
+                        No
+                    </a>
+                </li>
+                <li>
+                    <a href="#page9" data-transition="fade" data-theme="" data-icon="check">
+                        Si
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.si.si" data-theme="d" id="page9">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="answer.png"
+                         width="180" height="330" alt="Question" data-mce-src="answer.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            Favor limpiar los orificios de las hornillas.
+        </h3>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.si.no" data-theme="d" id="page11">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="question.png"
+                         width="200" height="200" alt="Question" data-mce-src="question.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            Hay residuos en la espita?
+        </h3>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#page13" data-transition="fade" data-theme="" data-icon="delete">
+                        No
+                    </a>
+                </li>
+                <li>
+                    <a href="#page12" data-transition="fade" data-theme="" data-icon="check">
+                        Si
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.si.no.si" data-theme="d" id="page12">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="answer.png"
+                         width="180" height="330" alt="Question" data-mce-src="answer.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            Favor limpiar y sopletear con el mismo gas.
+        </h3>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.si.no.no" data-theme="d" id="page13">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="answer.png"
+                         width="180" height="330" alt="Question" data-mce-src="answer.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h4>
+            Existe un problema interno, favor llevar a un técnico especializado, debe
+            examinarse la estufa de forma más minuciosa.
+        </h4>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="1.no" data-theme="d" id="page10">
+    <div data-theme="a" data-role="header">
+        <h3>
+            SE Para Estufas
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    <img src="answer.png"
+                         width="180" height="330" alt="Question" data-mce-src="answer.png"
+                         style="display: block; margin-left: auto; margin-right: auto;">
+                </b>
+            </p>
+        </div>
+        <h3>
+            Favor abrir la perilla de control hasta 'LITE'.
+        </h3>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a" data-cid="tabbar1" class="codiqa-control ui-footer ui-footer-fixed ui-bar-a ui-navbar ui-mini" role="navigation">
+        <ul class="ui-grid-a">
+
+            <li class="ui-block-a"><a href="#page1" data-transition="fade" data-theme="a" data-icon="home" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Inicio</span><span class="ui-icon ui-icon-home ui-icon-shadow">&nbsp;</span></span></a></li>
+
+            <li class="ui-block-b"><a href="#page5" data-transition="fade" data-theme="a" data-icon="info" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-a" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true"><span class="ui-btn-inner"><span class="ui-btn-text">Ayuda</span><span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span></span></a></li>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
